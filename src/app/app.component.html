@@ -1,0 +1,27 @@
+<div class="container">
+  <header class="navbar">
+    <h1 class="toolbar-title">{{ title }}</h1> <!-- Title at the top -->
+    <nav>
+      <a mat-button routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+      <a mat-button routerLink="/appointment" routerLinkActive="active">Appointments</a>
+      <a mat-button routerLink="/medical-records" routerLinkActive="active">Medical Records</a>
+      <a mat-button routerLink="/user-registration" routerLinkActive="active">user registration</a>
+
+      <app-notification [notificationTitle]="'New Appointment'"
+                  [notificationMessage]="'You have an appointment scheduled for tomorrow at 10:00 AM.'">
+</app-notification>
+
+
+    </nav>
+  </header>
+
+  
+
+<!-- <div class="content">
+  <app-user-registration></app-user-registration>
+  
+ </div> -->
+  <div class="content">
+    <router-outlet></router-outlet> <!-- Content area -->
+  </div>
+</div>

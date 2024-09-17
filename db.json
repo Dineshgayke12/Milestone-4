@@ -1,0 +1,24 @@
+{
+    "patients": [
+      { "id": 1, "name": "Rajesh Kumar", "age": 30, "gender": "Male", "contact": "9876543210", "email": "rajesh.kumar@example.com", "medicalRecords": [1, 2] },
+      { "id": 2, "name": "Priya Sharma", "age": 25, "gender": "Female", "contact": "9876543211", "email": "priya.sharma@example.com", "medicalRecords": [3] },
+      { "id": 3, "name": "Anjali Singh", "age": 40, "gender": "Female", "contact": "9876543212", "email": "anjali.singh@example.com", "medicalRecords": [4] },
+      { "id": 4, "name": "Vikram Patel", "age": 35, "gender": "Male", "contact": "9876543213", "email": "vikram.patel@example.com", "medicalRecords": [] },
+      { "id": 5, "name": "Amitabh Joshi", "age": 50, "gender": "Male", "contact": "9876543214", "email": "amitabh.joshi@example.com", "medicalRecords": [5] }
+    ],
+    "appointments": [
+      { "id": 1, "patientId": 1, "date": "2024-09-12", "time": "10:00 AM", "description": "General Checkup" },
+      { "id": 2, "patientId": 2, "date": "2024-09-13", "time": "11:30 AM", "description": "Dental Checkup" },
+      { "id": 3, "patientId": 3, "date": "2024-09-14", "time": "2:00 PM", "description": "Cardiology Consultation" },
+      { "id": 4, "patientId": 4, "date": "2024-09-15", "time": "1:00 PM", "description": "Dermatology Follow-up" },
+      { "id": 5, "patientId": 5, "date": "2024-09-16", "time": "3:30 PM", "description": "Physical Therapy" }
+    ],
+    "medicalRecords": [
+      { "id": 1, "patientId": 1, "diagnosis": "Hypertension", "treatment": "Medication", "date": "2024-08-10" },
+      { "id": 2, "patientId": 1, "diagnosis": "High Cholesterol", "treatment": "Diet & Exercise", "date": "2024-07-15" },
+      { "id": 3, "patientId": 2, "diagnosis": "Cavities", "treatment": "Dental Fillings", "date": "2024-06-20" },
+      { "id": 4, "patientId": 3, "diagnosis": "Heart Disease", "treatment": "Surgery", "date": "2024-03-18" },
+      { "id": 5, "patientId": 5, "diagnosis": "Knee Pain", "treatment": "Physical Therapy", "date": "2024-05-25" }
+    ]
+  }
+  

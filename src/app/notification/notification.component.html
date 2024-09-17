@@ -1,0 +1,13 @@
+<!-- src/app/notification/notification.component.html -->
+<div class="notification-container" *ngIf="showNotification">
+    <mat-card class="notification-card">
+      <div class="notification-header">
+        <span>{{ notificationTitle }}</span>
+        <button mat-icon-button (click)="closeNotification()">
+          <mat-icon>close</mat-icon>
+        </button>
+      </div>
+      <p>{{ notificationMessage }}</p>
+    </mat-card>
+  </div>
+  

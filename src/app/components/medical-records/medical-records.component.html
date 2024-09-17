@@ -1,0 +1,10 @@
+<div class="medical-record-list">
+    <h2>Medical Records</h2>
+    <ul>
+      <li *ngFor="let record of medicalRecords">
+        {{ record.details }} ({{ record.date }})
+      </li>
+    </ul>
+  </div>
+  
+

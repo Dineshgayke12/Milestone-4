@@ -1,0 +1,53 @@
+.dashboard-card {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .patient-list {
+    max-height: 400px; /* Adjust height as needed */
+    overflow-y: auto;
+  }
+  
+  mat-list-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  mat-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .patient-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .patient-info h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .patient-info p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  mat-card-header {
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  mat-card-title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  

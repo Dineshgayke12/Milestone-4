@@ -1,0 +1,9 @@
+{
+    "patients": [
+      { "id": 1, "name": "John Doe", "age": 30, "medicalRecords": [] }
+    ],
+    "appointments": [
+      { "id": 1, "patientId": 1, "date": "2024-09-12", "description": "General Checkup" }
+    ]
+  }
+  
